@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterapp/UserInterface/app_body.dart';
-import 'package:flutterapp/UserInterface/my_homepage.dart';
+import 'package:flutterapp/UserInterface/FirstLesson/my_homepage.dart';
 
 class MyApp extends StatelessWidget {
   @override

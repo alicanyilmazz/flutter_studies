@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterapp/UserInterface/my_app.dart';
+import 'package:flutterapp/UserInterface/FirstLesson/my_app.dart';
 
-void main()=>runApp(Apps());
+void main()=>runApp(MyApp());
 
 class Apps extends StatelessWidget{
   @override
