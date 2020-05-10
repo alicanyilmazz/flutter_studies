@@ -1,21 +1,20 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterapp/UserInterface/ThirdLesson/homepage_body.dart';
 
-class HomePage extends StatelessWidget {
+class ErrorPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Home Page App Bar",
+          "eRRge App Bar",
           style: TextStyle(
             fontSize: 24.0,
             color: Colors.white,
           ),
         ),
-        backgroundColor: Colors.deepOrangeAccent,
+        backgroundColor: Colors.orangeAccent.shade200,
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
@@ -28,7 +27,15 @@ class HomePage extends StatelessWidget {
           color: Colors.white,
         ),
       ),
-      body: HomePageBody(),
+      body: Center(
+        child: Container(
+          child: Card(
+            child: Text("Oops there is an problem."),
+            elevation:10,
+            color: Colors.pink.shade300,
+          ),
+        ),
+      ),
     );
   }
 }

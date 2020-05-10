@@ -1,21 +1,21 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterapp/UserInterface/ThirdLesson/homepage_body.dart';
+import 'package:flutterapp/UserInterface/ThirdLesson/pagethree_body.dart';
 
-class HomePage extends StatelessWidget {
+class PageThree extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Home Page App Bar",
+          "Page C AppBar",
           style: TextStyle(
             fontSize: 24.0,
             color: Colors.white,
           ),
         ),
-        backgroundColor: Colors.deepOrangeAccent,
+        backgroundColor: Colors.pink.shade200,
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
           color: Colors.white,
         ),
       ),
-      body: HomePageBody(),
+      body: PageThreeBody("Page Three"),
     );
   }
 }

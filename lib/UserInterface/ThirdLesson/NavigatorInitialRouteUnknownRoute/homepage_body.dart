@@ -65,18 +65,6 @@ class HomePageBody extends StatelessWidget {
               );
             },
           ),
-          RaisedButton(
-            child: Text("Navigate to D Page"),
-            color: Colors.teal.shade500,
-            onPressed: () {
-              Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => PageFour(),
-                ),
-              );
-            },
-          ),
         ],
       ),
     );
