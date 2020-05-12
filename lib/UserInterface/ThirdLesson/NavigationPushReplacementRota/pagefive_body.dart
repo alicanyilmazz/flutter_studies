@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterapp/UserInterface/ThirdLesson/NavigationBasic/page_one.dart';
-import 'package:flutterapp/UserInterface/ThirdLesson/page_two.dart';
-import 'package:flutterapp/UserInterface/ThirdLesson/pagetwo_body.dart';
+
 
 class PageFiveBody extends StatelessWidget {
   @override

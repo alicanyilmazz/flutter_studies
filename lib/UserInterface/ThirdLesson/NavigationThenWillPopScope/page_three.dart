@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterapp/UserInterface/ThirdLesson/pagethree_body.dart';
+import 'package:flutterapp/UserInterface/ThirdLesson/NavigationPushReplacementRota/pagethree_body.dart';
+
 
 class PageThree extends StatelessWidget {
   @override

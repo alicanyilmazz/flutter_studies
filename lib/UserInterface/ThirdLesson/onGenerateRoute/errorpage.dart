@@ -1,22 +1,20 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterapp/UserInterface/ThirdLesson/NavigationPushReplacementRota/pagethree_body.dart';
 
-
-class PageThree extends StatelessWidget {
+class ErrorPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Page C AppBar",
+          "eRRge App Bar",
           style: TextStyle(
             fontSize: 24.0,
             color: Colors.white,
           ),
         ),
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: Colors.orangeAccent.shade200,
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
@@ -29,7 +27,15 @@ class PageThree extends StatelessWidget {
           color: Colors.white,
         ),
       ),
-      body: PageThreeBody("Page C"),
+      body: Center(
+        child: Container(
+          child: Card(
+            child: Text("Oops there is an problem."),
+            elevation:10,
+            color: Colors.pink.shade300,
+          ),
+        ),
+      ),
     );
   }
 }

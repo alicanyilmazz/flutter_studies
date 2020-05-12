@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterapp/UserInterface/ThirdLesson/page_five.dart';
+import 'package:flutterapp/UserInterface/ThirdLesson/NavigationBasic/page_two.dart';
 
 
-class PageFourBody extends StatelessWidget {
+class PageOneBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
@@ -13,7 +13,7 @@ class PageFourBody extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text(
-            "One Four",
+            "One Page",
             style: TextStyle(
               color: Colors.white,
               backgroundColor: Colors.pink,
@@ -22,9 +22,14 @@ class PageFourBody extends StatelessWidget {
           ),
           RaisedButton(
             color: Colors.deepOrangeAccent,
-            child: Text("Navigate to E"),
+            child: Text("Navigate to B"),
             onPressed: () {
-              Navigator.pushReplacement(context,MaterialPageRoute(builder: (context)=>PageFive()));
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => PageTwo(""),
+                ),
+              );
             },
           ),
         ],

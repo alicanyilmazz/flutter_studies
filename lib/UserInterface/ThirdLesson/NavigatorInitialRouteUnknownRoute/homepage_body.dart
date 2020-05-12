@@ -1,8 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterapp/UserInterface/ThirdLesson/page_four.dart';
-import 'package:flutterapp/UserInterface/ThirdLesson/page_three.dart';
-import 'package:flutterapp/UserInterface/ThirdLesson/page_two.dart';
+import 'package:flutterapp/UserInterface/ThirdLesson/NavigationBasic/page_two.dart';
+import 'package:flutterapp/UserInterface/ThirdLesson/NavigationPushReplacementRota/page_four.dart';
+import 'package:flutterapp/UserInterface/ThirdLesson/NavigationPushReplacementRota/page_three.dart';
+
 
 class HomePageBody extends StatelessWidget {
   String _data = "Sending Data";

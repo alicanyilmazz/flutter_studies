@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterapp/UserInterface/ThirdLesson/NavigationBasic/page_one.dart';
 import 'package:flutterapp/UserInterface/ThirdLesson/NavigationBasic/page_two.dart';
+import 'package:flutterapp/UserInterface/ThirdLesson/NavigationPushReplacementRota/page_four.dart';
 import 'package:flutterapp/UserInterface/ThirdLesson/NavigationPushReplacementRota/page_three.dart';
 
 
@@ -20,12 +20,7 @@ class HomePageBody extends StatelessWidget {
             child: Text("Navigate to A Page"),
             color: Colors.lightBlueAccent,
             onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => PageOne(),
-                ),
-              );
+              Navigator.pushNamed(context, "/PageOne");
             },
           ),
           RaisedButton(
@@ -42,7 +37,7 @@ class HomePageBody extends StatelessWidget {
           ),
           RaisedButton(
             child: Text(
-              "Navigate to D Page and bring the data",
+              "Navigate to C Page",
               style: TextStyle(
                 color: Colors.white,
               ),
@@ -57,6 +52,25 @@ class HomePageBody extends StatelessWidget {
               ).then((e) {
                 debugPrint("Comed data after pop process : $e");
               });
+            },
+          ),
+          RaisedButton(
+            child: Text("Navigate to D Page"),
+            color: Colors.teal.shade500,
+            onPressed: () {
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => PageFour(),
+                ),
+              );
+            },
+          ),
+          RaisedButton(
+            child: Text("Navigate to List Page"),
+            color: Colors.teal.shade500,
+            onPressed: () {
+              Navigator.pushNamed(context, "/ListPage");
             },
           ),
         ],

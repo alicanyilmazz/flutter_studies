@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterapp/UserInterface/ThirdLesson/NavigationBasic/page_one.dart';
-import 'package:flutterapp/UserInterface/ThirdLesson/page_four.dart';
-import 'package:flutterapp/UserInterface/ThirdLesson/pagefour_body.dart';
+import 'package:flutterapp/UserInterface/ThirdLesson/NavigationPushReplacementRota/page_four.dart';
+
 
 class PageThreeBody extends StatelessWidget {
   String _data;
