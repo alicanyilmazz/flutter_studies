@@ -25,6 +25,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   fluttertoast: ^4.0.0
   bot_toast: ^3.0.0
+  palette_generator: ^0.2.2
 
 dev_dependencies:
   flutter_test:
@@ -46,7 +47,32 @@ flutter:
   assets:
    - assets/images/corona.png
    - assets/images/loading.gif
-   - assets/images/siri.png
+   - assets/images/aries1.png
+   - assets/images/aries_big1.png
+   - assets/images/taurus2.png
+   - assets/images/taurus_big2.png
+   - assets/images/gemini3.png
+   - assets/images/gemini_big3.png
+   - assets/images/cancer4.png
+   - assets/images/cancer_big4.png
+   - assets/images/leo5.png
+   - assets/images/leo_big5.png
+   - assets/images/virgo6.png
+   - assets/images/virgo_big6.png
+   - assets/images/libra7.png
+   - assets/images/libra_big7.png
+   - assets/images/scorpio8.png
+   - assets/images/scorpio_big8.png
+   - assets/images/sagittarius9.png
+   - assets/images/sagittarius_big9.png
+   - assets/images/capricorn10.png
+   - assets/images/capricorn_big10.png
+   - assets/images/aquarius11.png
+   - assets/images/aquarius_big11.png
+   - assets/images/pisces12.png
+   - assets/images/pisces_big12.png
+
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
