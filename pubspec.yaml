@@ -26,6 +26,7 @@ dependencies:
   fluttertoast: ^4.0.0
   bot_toast: ^3.0.0
   palette_generator: ^0.2.2
+  date_format: ^1.0.8
 
 dev_dependencies:
   flutter_test:
