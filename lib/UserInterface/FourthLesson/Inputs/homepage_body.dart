@@ -39,6 +39,13 @@ class HomePageBody extends StatelessWidget {
                 Navigator.pushNamed(context, "/dateandtimepicker");
               },
             ),
+            RaisedButton(
+              child: Text("Stepper"),
+              color: Colors.blueGrey,
+              onPressed: (){
+                Navigator.pushNamed(context, "/stepperwidget");
+              },
+            ),
           ],
         ),
       ),

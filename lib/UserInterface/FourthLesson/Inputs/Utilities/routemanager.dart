@@ -5,6 +5,7 @@ import 'package:flutterapp/UserInterface/FourthLesson/Inputs/checkboxlisttiles.d
 import 'package:flutterapp/UserInterface/FourthLesson/Inputs/datetimepicker.dart';
 import 'package:flutterapp/UserInterface/FourthLesson/Inputs/formpageone.dart';
 import 'package:flutterapp/UserInterface/FourthLesson/Inputs/homepage.dart';
+import 'package:flutterapp/UserInterface/FourthLesson/Inputs/stepper.dart';
 import 'package:flutterapp/UserInterface/FourthLesson/Inputs/textfield.dart';
 
 
@@ -32,6 +33,10 @@ class RouteManager {
       case '/dateandtimepicker':
         {
           return MaterialPageRoute(builder: (_) => DateAndTimePicker());
+        }
+      case '/stepperwidget':
+        {
+          return MaterialPageRoute(builder: (_) => StepperWidget());
         }
       case '/horoscopedetail':
         {
