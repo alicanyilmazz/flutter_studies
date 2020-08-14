@@ -47,6 +47,11 @@ flutter:
         - asset: assets/fonts/OpenSans-Regular.ttf
         - asset: assets/fonts/OpenSans-Bold.ttf
           weight: 700
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
@@ -81,6 +86,16 @@ flutter:
    - assets/images/aquarius_big11.png
    - assets/images/pisces12.png
    - assets/images/pisces_big12.png
+   - assets/images/chanellogo.jpg
+   - assets/images/chloelogo.png
+   - assets/images/dress.jpg
+   - assets/images/louisvuitton.jpg
+   - assets/images/model1.jpeg
+   - assets/images/model2.jpeg
+   - assets/images/model3.jpeg
+   - assets/images/modelgrid1.jpeg
+   - assets/images/modelgrid2.jpeg
+   - assets/images/modelgrid3.jpeg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
