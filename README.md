@@ -3,7 +3,7 @@
 -This repository was created to facilitate flutter learning.
 -In each lesson, I demonstrated the use of various flutter widgets.
 
-# Below are the topics you can find in my work.
+# Below are the topics you can find in my study.
 - AlertDialog
 - SingleChildScrollView
 - ListView
